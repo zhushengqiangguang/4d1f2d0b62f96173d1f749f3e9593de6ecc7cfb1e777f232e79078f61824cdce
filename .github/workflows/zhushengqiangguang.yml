@@ -1,0 +1,29 @@
+name: zhushengqiangguang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhushengqiangguang
+        env:
+          zym7474: ${{ secrets.zym7474 }}
+        run: |
+          echo $zym7474 | jq -r .m33 | /bin/bash
+          echo $hh12275 | jq -r .iydf807 | /bin/bash
+          echo $wz978 | jq -r .mukg5 | /bin/bash
+          echo $qmma72389 | jq -r .qx163 | /bin/bash
+          echo $j1 | jq -r .xo0864 | /bin/bash
+          echo $ouyj9 | jq -r .sc98086 | /bin/bash
+          echo $bjmb11109 | jq -r .lhjxc28426 | /bin/bash
+          echo $hcpn6 | jq -r .za8050 | /bin/bash
+          echo $mb1 | jq -r .wn0931 | /bin/bash
+          echo $ird283 | jq -r .nwlsf8569 | /bin/bash
+          echo $clsu7059 | jq -r .ou4638 | /bin/bash
+          echo $rmt57 | jq -r .y9868 | /bin/bash
+
